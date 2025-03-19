@@ -14,12 +14,12 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <build>
-        <resources>
+<!--        <resources>
             <resource>
                 <directory>./dist/mfa-ui</directory>
                 <targetPath>static</targetPath>
             </resource>
-        </resources>
+        </resources>-->
         <plugins>
             <plugin>
                 <groupId>com.github.eirslett</groupId>

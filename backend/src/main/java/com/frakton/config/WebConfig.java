@@ -27,7 +27,7 @@ public class WebConfig implements WebMvcConfigurer {
                     }
                 });
 
-        // Fallback to serve index.html for any other paths (e.g., deep links in Angular routing)
+ /*       // Fallback to serve index.html for any other paths (e.g., deep links in Angular routing)
         registry.addResourceHandler("/**")
                 .addResourceLocations("classpath:/static/mfa-ui/")
                 .resourceChain(true)
@@ -36,6 +36,6 @@ public class WebConfig implements WebMvcConfigurer {
                     protected Resource getResource(String resourcePath, Resource location) throws IOException {
                         return new ClassPathResource("/static/mfa-ui/index.html");
                     }
-                });
+                });*/
     }
 }
