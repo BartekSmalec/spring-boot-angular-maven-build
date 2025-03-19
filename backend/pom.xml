@@ -46,12 +46,15 @@
                     <execution>
                         <id>copy-resources</id>
                         <phase>validate</phase>
-                        <goals><goal>copy-resources</goal></goals>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
                         <configuration>
-                            <outputDirectory>${project.build.directory}/classes/resources/</outputDirectory>
+                            <!-- Copy Angular files to the static/mfa-ui directory -->
+                            <outputDirectory>${project.build.directory}/classes/static/mfa-ui</outputDirectory>
                             <resources>
                                 <resource>
-                                    <directory>${project.parent.basedir}/frontend/dist/frakton/</directory>
+                                    <directory>${project.parent.basedir}/frontend/dist/mfa-ui</directory>
                                 </resource>
                             </resources>
                         </configuration>

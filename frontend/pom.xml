@@ -16,7 +16,7 @@
     <build>
         <resources>
             <resource>
-                <directory>./dist/frakton</directory>
+                <directory>./dist/mfa-ui</directory>
                 <targetPath>static</targetPath>
             </resource>
         </resources>
@@ -49,7 +49,7 @@
                             <goal>npm</goal>
                         </goals>
                         <configuration>
-                            <arguments>run build</arguments>
+                            <arguments>run build -- --base-href=/mfa-ui/ --output-path=dist/mfa-ui</arguments>
                         </configuration>
                     </execution>
                 </executions>
