@@ -246,3 +246,8 @@ will be redirected to *static/index.html* giving access to Angular to manage the
 Next, we just build our project and generate the JAR file.
 
 Once the application has started, we will be able to see the welcome page.
+
+
+For more information, you can refer to this [Stack Overflow discussion](https://stackoverflow.com/questions/71395786/angular-with-spring-boot-static-does-not-work).
+For more information, you can refer to this [Stack Overflow discussion](https://stackoverflow.com/questions/71718970/react-route-paths-not-working-in-static-spring-boot-folder).
+For more information, you can refer to this [Stack Overflow discussion](https://stackoverflow.com/questions/71157689/spring-boot-2-6-and-angular-in-static-resources).
